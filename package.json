@@ -1,0 +1,31 @@
+{
+  "name": "vuejt",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "build": "webpack",
+    "dev": "webpack-dev-server --inline --hot --content-base ./src/dist"
+  },
+  "author": "",
+  "license": "ISC",
+  "devDependencies": {
+    "babel-cli": "^6.22.2",
+    "babel-loader": "^6.2.10",
+    "babel-preset-es2015": "^6.22.0",
+    "babel-preset-stage-2": "^6.22.0",
+    "css-loader": "^0.26.1",
+    "element-ui": "^1.1.6",
+    "file-loader": "^0.10.0",
+    "html-webpack-plugin": "^2.26.0",
+    "style-loader": "^0.13.1",
+    "vue": "^2.1.10",
+    "vue-loader": "^10.1.2",
+    "vue-resource": "^1.1.1",
+    "vue-router": "^2.2.0",
+    "vue-template-compiler": "^2.1.10",
+    "vuex": "^2.1.1",
+    "webpack": "^1.14.0",
+    "webpack-dev-server": "^1.16.2"
+  }
+}
