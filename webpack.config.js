@@ -1,6 +1,8 @@
 var HtmlWebpackPlugin = require("html-webpack-plugin");
 var webpack = require("webpack");
 
+let hao = "hao";
+
 module.exports = {
     entry:{
        // "index":__dirname+"/src/js/index.js"
@@ -34,7 +36,7 @@ module.exports = {
             template:__dirname+"/src/html/index.html",
             inject:"body",
             hash:true,
-            chunks:["index"]  
+            chunks:["index"]
         })
     ]
 }
