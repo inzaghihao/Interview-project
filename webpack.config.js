@@ -34,7 +34,7 @@ module.exports = {
             template:__dirname+"/src/html/index.html",
             inject:"body",
             hash:true,
-            chunks:["index"]
+            chunks:["index"]  
         })
     ]
 }
